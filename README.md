@@ -25,16 +25,14 @@ p n.eval([ ... ])
 
 ## Installation
 
-This repo depends on the [native C++ nanuk library](https://github.com/patztablook22/nanuk/), mounted as a submodule at `ext/nanuk`; to include it, write:
-
+To install this gem, run:
 ```bash
-git submodule init
-git submodule update
+rake install
 ```
 
-Then, run:
-```
-rake install
+This repo depends on the [native C++ nanuk library](https://github.com/patztablook22/nanuk/), mounted as a submodule at `ext/nanuk`. To clone it manually, write:
+```bash
+rake submodule
 ```
 
 ## License
