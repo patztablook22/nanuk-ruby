@@ -1,0 +1,3 @@
+[submodule "ext/nanuk"]
+	path = ext/nanuk
+	url = git@github.com:patztablook22/nanuk.git
