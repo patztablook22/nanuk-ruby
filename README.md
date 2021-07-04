@@ -2,31 +2,21 @@
 
 FFI wrapper for Nanuk, a deep learning library written in C++
 
+## Demo
+
 ## Installation
 
-Add this line to your application's Gemfile:
+This repo depends on the [native C++ nanuk library](https://github.com/patztablook22/nanuk/), mounted as a submodule at `ext/nanuk`; to include it, write:
 
-```ruby
-gem 'nanuk'
+```bash
+git submodule init
+git submodule update
 ```
 
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ rake install
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Then, run:
+```
+rake install
+```
 
 ## License
 
