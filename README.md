@@ -1,6 +1,6 @@
 # Nanuk for Ruby
 
-FFI wrapper for Nanuk, a deep learning library written in C++
+FFI wrapper for Nanuk, a shallo neural network library written in C++
 
 ## Demo
 
